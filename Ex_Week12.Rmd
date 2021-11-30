@@ -6,6 +6,10 @@ output: pdf_document
 
 \begin{enumerate}
 
+\item Using an analogous derivation to the one shown during the lecture, you are going to prove that GMM reduces to the OLS estimator under the orthogonality assumption. That is, assume a model given by $y=x\beta+e$, where $E(x'e)=0$. 
+
+Note: We assume that the columns of $x$ are linearly independent, and we use any symmetric definite positive weight matrix $W$.
+
 \item \textbf{Exercises 9.14 in ETM}: Suppose that $g_n(\beta) =y_t-x_t\beta$. Show that, in this special case, the estimating equations (or first order conditions for GMM) given by
 $$G_n'(\hat{\beta})W_ng_n(\hat{\beta}) = 0,$$
 yield the generalized IV estimator.
